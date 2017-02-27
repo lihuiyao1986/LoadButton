@@ -10,8 +10,11 @@
 
 static NSString *kLoadButtonStrokeAnimationKey = @"loadButton.stroke";
 static NSString *kLoadButtonRotationAnimationKey = @"loadButton.rotation";
-
+#if defined(__IPHONE_10_0) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0)
 @interface LoadButton ()<CAAnimationDelegate>{
+#else
+@interface LoadButton (){
+#endif
     CGRect _originalFrame;
     CAShapeLayer *_loadingLayer;
     CGFloat _orginalCornerRadius;
