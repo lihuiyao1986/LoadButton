@@ -10,7 +10,7 @@
 @class LoadButton;
 
 typedef void(^LoadingBegin)(LoadButton*btn);
-typedef void(^loadingEnd)(LoadButton*btn);
+typedef void(^LoadingEnd)(LoadButton*btn);
 
 @interface LoadButton : UIButton
 
@@ -33,7 +33,7 @@ typedef void(^loadingEnd)(LoadButton*btn);
 @property(nonatomic,strong)LoadingBegin beginBlock;
 
 #pragma mark - 动画结束回调
-@property(nonatomic,strong)loadingEnd endBlock;
+@property(nonatomic,strong)LoadingEnd endBlock;
 
 #pragma mark - 加载时是否disable按钮
 @property(nonatomic,assign)BOOL disableWhenLoad;
