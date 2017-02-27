@@ -10,9 +10,7 @@
 		48211E0E1E6305B800FF085A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48211E0D1E6305B800FF085A /* main.m */; };
 		48211E111E6305B800FF085A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48211E101E6305B800FF085A /* AppDelegate.m */; };
 		48211E141E6305B800FF085A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48211E131E6305B800FF085A /* ViewController.m */; };
-		48211E171E6305B800FF085A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48211E151E6305B800FF085A /* Main.storyboard */; };
 		48211E191E6305B800FF085A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48211E181E6305B800FF085A /* Assets.xcassets */; };
-		48211E1C1E6305B800FF085A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48211E1A1E6305B800FF085A /* LaunchScreen.storyboard */; };
 		48211E261E63060600FF085A /* LoadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48211E251E63060600FF085A /* LoadButton.m */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +21,7 @@
 		48211E101E6305B800FF085A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48211E121E6305B800FF085A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		48211E131E6305B800FF085A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		48211E161E6305B800FF085A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48211E181E6305B800FF085A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48211E1B1E6305B800FF085A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48211E1D1E6305B800FF085A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48211E241E63060600FF085A /* LoadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadButton.h; sourceTree = "<group>"; };
 		48211E251E63060600FF085A /* LoadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadButton.m; sourceTree = "<group>"; };
@@ -66,9 +62,7 @@
 				48211E101E6305B800FF085A /* AppDelegate.m */,
 				48211E121E6305B800FF085A /* ViewController.h */,
 				48211E131E6305B800FF085A /* ViewController.m */,
-				48211E151E6305B800FF085A /* Main.storyboard */,
 				48211E181E6305B800FF085A /* Assets.xcassets */,
-				48211E1A1E6305B800FF085A /* LaunchScreen.storyboard */,
 				48211E1D1E6305B800FF085A /* Info.plist */,
 				48211E0C1E6305B800FF085A /* Supporting Files */,
 			);
@@ -151,9 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48211E1C1E6305B800FF085A /* LaunchScreen.storyboard in Resources */,
 				48211E191E6305B800FF085A /* Assets.xcassets in Resources */,
-				48211E171E6305B800FF085A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,25 +164,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		48211E151E6305B800FF085A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48211E161E6305B800FF085A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		48211E1A1E6305B800FF085A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48211E1B1E6305B800FF085A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		48211E1E1E6305B800FF085A /* Debug */ = {

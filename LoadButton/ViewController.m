@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     LoadButton *_btn = [[LoadButton alloc]initWithFrame:CGRectMake(20, 120, CGRectGetWidth(self.view.frame) - 40, 44.f)];
     _btn.layer.cornerRadius = 8.f;
     _btn.backgroundColor = [UIColor greenColor];
