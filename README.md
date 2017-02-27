@@ -1,6 +1,9 @@
 # LoadButton
 加载按钮
 
+## 效果图
+![](./profile.gif)
+
 ## 属性
 
 1.按钮是否正在加载    isLoading[BOOL]只读</br>
